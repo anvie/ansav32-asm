@@ -1,0 +1,39 @@
+
+#define VERSIONMAJOR 1
+#define VERSIONMINOR 9
+#define VERSIONBUILD 3
+#define VERSIONREVISION 0
+
+#define szVERSIONMAJOR "1."
+#define szVERSIONMINOR "9."
+#define szVERSIONBUILD "3"
+
+#define VERINFO 1
+VERINFO VERSIONINFO
+FILEVERSION VERSIONMAJOR,VERSIONMINOR,VERSIONBUILD,VERSIONREVISION
+PRODUCTVERSION VERSIONMAJOR,VERSIONMINOR,VERSIONBUILD,VERSIONREVISION
+FILEOS 0x00000004
+FILETYPE 0x00000001
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "An Software Lab.\0"
+      VALUE "FileVersion", szVERSIONMAJOR szVERSIONMINOR szVERSIONBUILD
+      VALUE "FileDescription", "Mini Windows portable Antivirus\0"
+      VALUE "InternalName", "ANSAV\0"
+      VALUE "LegalCopyright", "Copyright © 2006-2008, An Software Lab.\0"
+      VALUE "OriginalFilename", "ANSAV32.EXE\0"
+      VALUE "ProductName", "ANSAV (An's Antivirus)\0"
+      VALUE "ProductVersion", szVERSIONMAJOR szVERSIONMINOR szVERSIONBUILD
+      VALUE "Author", "4NV|e\0"
+      VALUE "Home", "http://www.ansav.com\0"
+      VALUE "Contact", "e-mail: anvie_2194@yahoo.com anvie@ansav.com"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 0x04B0
+  END
+END

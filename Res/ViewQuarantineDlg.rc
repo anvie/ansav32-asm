@@ -1,0 +1,18 @@
+#define IDD_DLG7 1008
+#define IDC_BTN17 1001
+#define IDC_BTN18 1002
+#define IDC_LSV3 1004
+#define IDC_STC30 1005
+#define IDC_STC31 1006
+IDD_DLG7 DIALOGEX 6,6,305,178
+CAPTION "Ansav Quarantine zone"
+FONT 8,"MS Sans Serif",400,0
+STYLE 0x10C80800
+EXSTYLE 0x00000000
+BEGIN
+  CONTROL "&Close",IDC_BTN17,"Button",0x50010000,250,158,48,15,0x00000000
+  CONTROL "&Delete all",IDC_BTN18,"Button",0x50010000,6,158,48,15,0x00000000
+  CONTROL "",IDC_LSV3,"SysListView32",0x50010041,6,35,292,107,0x00000200
+  CONTROL "All last detected threat(s) and suspected that already take quarantine action by user was located in quarantine zone. You can view, restore or delete object from here. Right click to list bellow for more action.",IDC_STC30,"Static",0x50000000,62,5,235,25,0x00000000
+  CONTROL "Object count : %d",IDC_STC31,"Static",0x50000000,6,145,256,9,0x00000000
+END

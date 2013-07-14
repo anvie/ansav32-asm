@@ -1,0 +1,50 @@
+#define IDD_DLG9 1010
+#define IDC_STC10 1007
+#define IDC_CHK13 1016
+#define minsatu -1
+#define IDC_BTN23 1003
+#define IDC_BTN24 1004
+#define IDC_BTN25 1005
+#define IDC_STC37 1006
+#define IDC_EDT7 1002
+#define IDC_STC39 1008
+#define IDC_LST2 1009
+#define IDC_EDT10 1011
+#define IDC_BTN26 1012
+#define IDC_STC38 1013
+#define IDC_STC40 1014
+#define IDC_CHK12 1015
+#define IDC_STC41 1017
+#define IDC_PGB4 1018
+#define IDC_STC42 1019
+#define IDC_STC43 1020
+#define IDC_STC44 1021
+#define IDC_STC45 1022
+IDD_DLG9 DIALOGEX 6,6,270,163
+CAPTION "Ansav Installation Wizard"
+FONT 8,"MS Sans Serif",400,0
+STYLE 0x90C80800
+EXSTYLE 0x00000000
+BEGIN
+  CONTROL 706,minsatu,"Static",0x5000020E,4,3,56,129,0x00020000
+  CONTROL "&Lanjut",IDC_BTN23,"Button",0x50010000,168,140,46,14,0x00000000
+  CONTROL "&Kembali",IDC_BTN24,"Button",0x50010000,122,140,46,14,0x00000000
+  CONTROL "&Batal",IDC_BTN25,"Button",0x50010000,218,140,46,14,0x00000000
+  CONTROL "",IDC_STC37,"Static",0x50000010,0,136,310,1,0x00000000
+  CONTROL "",IDC_EDT7,"Edit",0x50210004,68,29,194,98,0x00000200
+  CONTROL "IDC_STC",IDC_STC10,"Static",0x50000004,58,12,202,118,0x00000000
+  CONTROL "LANGKAH 1/3",IDC_STC39,"Static",0x50000000,70,18,184,8,0x00000000
+  CONTROL "",IDC_LST2,"ListBox",0x50210141,68,29,194,98,0x00000200
+  CONTROL "",IDC_EDT10,"Edit",0x50010080,70,48,152,11,0x00000200
+  CONTROL "Cari...",IDC_BTN26,"Button",0x50010000,228,46,30,14,0x00000000
+  CONTROL "Tempat Installasi ANSAV :",IDC_STC38,"Static",0x50000000,70,35,152,9,0x00000000
+  CONTROL "Pilih tempat pemasangan ANSAV. Klik 'Cari...' untuk memilih tempat.\r\n\r\nTIPS : \r\nPilih nama tempat untuk ANSAV dengan nama yang unik, hal ini untuk menghindari virus menghafalkan tempat tersebut dan dijadikan target operasi :)",IDC_STC40,"Static",0x50000000,70,62,188,59,0x00000000
+  CONTROL "Buat pintasan pada desktop.",IDC_CHK12,"Button",0x50010003,78,46,128,9,0x00000000
+  CONTROL "Setelah selesai hidupkan ulang komputer (disarankan).",IDC_CHK13,"Button",0x50012403,78,59,170,22,0x00000000
+  CONTROL "Proses pemasangan sudah siap. Klik 'Pasang' untuk memulai proses installasi.",IDC_STC41,"Static",0x50000000,74,108,184,22,0x00000000
+  CONTROL "",IDC_PGB4,"msctls_progress32",0x50000000,76,68,176,13,0x00000000
+  CONTROL "Status :",IDC_STC42,"Static",0x50000000,76,57,28,8,0x00000000
+  CONTROL "Installing...",IDC_STC43,"Static",0x50000000,106,57,116,8,0x00000000
+  CONTROL "Pemasangan gagal. Hubungi author.",IDC_STC44,"Static",0x50000000,76,83,178,28,0x00000000
+  CONTROL "Copyright © 2006-2007 AnSoft Lab.",IDC_STC45,"Static",0x58000000,4,144,114,8,0x00000000
+END
